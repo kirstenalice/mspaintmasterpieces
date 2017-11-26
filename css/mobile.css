@@ -1,0 +1,9 @@
+p {
+    line-height: 1.7;
+}
+
+.us {
+    width: 100%;
+    flex-direction: column;
+    line-height: 1.7;
+}

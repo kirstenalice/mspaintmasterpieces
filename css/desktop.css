@@ -1,0 +1,50 @@
+body {
+    background-color: #66ccff;
+}
+
+gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+gallery img {
+    justify-content: space-around;
+    margin: 10px 0 0 2%;
+    border-style: solid;
+    border-color: grey;
+    width: 256px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+table {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    text-shadow: 1px 1px 0px #ffffff;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.us {
+    display: flex;
+    flex-grow: 1;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
