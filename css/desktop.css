@@ -75,7 +75,7 @@ nav{
     background-color: #fcf4b8;
     justify-content: space-between;
 }
-nav.table{
+nav.table {
     border: 1px solid black;
     padding: 3px;
 }
