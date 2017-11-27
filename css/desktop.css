@@ -48,3 +48,9 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
+img.logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;   
+}
