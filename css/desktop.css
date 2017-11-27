@@ -47,16 +47,12 @@ h1  {
 }
 
 .us {
-    display: inline;
+    display: flex;
     flex-grow: 1;
     width: 50%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border: 5px #C0C0C0;
-    border-style: ridge;
-    margin: 10px;
-    
+    align-items: center;  
 }
 
 img.logo {
