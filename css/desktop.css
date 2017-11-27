@@ -71,5 +71,7 @@ section {
 }
 
 nav{
+    display: flex;
     background-color: #fcf4b8;
+    justify-content: space-between;
 }
