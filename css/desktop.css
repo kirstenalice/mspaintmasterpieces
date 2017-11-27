@@ -63,6 +63,8 @@ img.logo {
     height: auto;
 }
 section {
+    margin-left: 2%;
+    margin-right: 2%;
     padding: 10%;
     background-color: red;
 }
