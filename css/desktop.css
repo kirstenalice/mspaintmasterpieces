@@ -53,6 +53,8 @@ h1  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 5px black inset;
+    padding: 5px;
 }
 
 img.logo {
