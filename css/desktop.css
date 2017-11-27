@@ -1,5 +1,8 @@
 body {
-    background-image: url("tile_background.png");
+    background-color: #ffff99;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 20px;
 }
 
 gallery {
@@ -19,29 +22,32 @@ gallery img {
 
 h1, h2, h3, p {
     text-align: center;
-    font-family: 'Century Gothic';
 }
 
 table {
     display: flex;
     justify-content: space-around;
-    font-family: 'Century Gothic';
 }
 
 a {
     color: blue;
-    text-decoration: none;
 }
 
 a:hover {
     text-shadow: 1px 1px 0px #ffffff;
+}
+h1  {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+	border-style: solid;
+	border-width: 0px 0px 3px 0px;
+	border-radius: 5px;
+	
 }
 
 #container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-family: 'Century Gothic';
 }
 
 .us {
@@ -50,6 +56,37 @@ a:hover {
     width: 50%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
 }
 
+img.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;   
+    width: 10%;
+    height: auto;
+}
+section {
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #3399ff;
+    margin-top: 1%;
+	padding: 1%;
+	border-style: outset;
+	border-width: 10px;
+	border-radius: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content:center;
+}
+tr.nav>th{
+    border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+    padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #ccffcc;
+}
