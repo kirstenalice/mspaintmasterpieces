@@ -1,5 +1,5 @@
 body {
-    background-color: #66ccff;
+    background-color: #ffff99;
     margin-left: 12%;
     margin-right: 12%;
     margin-top: 20px;
@@ -38,6 +38,10 @@ a:hover {
 }
 h1  {
     font-family: "Comic Sans MS", cursive, sans-serif;
+	border-style: solid;
+	border-width: 0px 0px 3px 0px;
+	border-radius: 5px;
+	
 }
 
 #container {
@@ -65,17 +69,24 @@ img.logo {
 section {
     margin-left: 1%;
     margin-right: 1%;
-    padding: 1%;
-    background-color: red;
-    margin-top: 2%;
+    background-color: #3399ff;
+    margin-top: 1%;
+	padding: 1%;
+	border-style: outset;
+	border-width: 10px;
+	border-radius: 20px;
 }
 
 nav{
     display: flex;
-    background-color: #fcf4b8;
-    justify-content: space-between;
+    justify-content:center;
 }
-nav.table {
-    border: 1px solid black;
+tr.nav>th{
+    border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
     padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #ccffcc;
 }
