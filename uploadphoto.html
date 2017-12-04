@@ -23,16 +23,19 @@
 		<section>
         <h1>Upload Your Art!</h1>
         <div id="container">
-        <form>
+        <form onsubmit="handleFormSubmit(); return false;">
             Title:<br>
-            <input type="text" name="title" placeholder = "Enter a Title"><br>
+            <input type="text" id = "title" name="title" placeholder = "Enter a Title" required><br>
             Caption:<br>
-            <input type="text" name="caption" placeholder = "Enter a Caption"!><br>
+            <input type="text" id = "caption" name="caption" placeholder = "Enter a Caption"! required><br>
             Image File:<br>
-            <input type="text" name="filepath" placeholder = "Link to Your Photo"><br>
-            <input type="submit">
+            <input type="text" id = "picture" name="filepath" placeholder = "Link to Your Photo" required><br>
+            <button>Submit Post!</button>
         </form>
         </div>
+	<section id="newPost">
+	</section>
 	</section>
     </body>
+<script type="text/javascript" src="./javascript/upload_photo.js"></script>
 </html>
